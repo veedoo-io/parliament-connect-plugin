@@ -1,6 +1,6 @@
 ---
 name: parliament-clip-research
-description: Context for working with UK Parliament clips from Parliament Connect — what the library covers, what makes a query land, and which link to share. Use when someone asks what an MP said in Parliament, or wants a clip or quote from a Commons debate.
+description: Context for working with UK Parliament clips from Parliament Connect — what the library covers, what makes a query land, and which link to share. Use when someone asks what an MP said in Parliament, or wants a clip or quote from a Commons debate on a particular subject.
 ---
 
 # Working with Parliament Connect clips
@@ -24,27 +24,42 @@ were silent.
 
 ## What makes a query land
 
-Matching runs on what was spoken. A half-remembered sentence in the speaker's
-own words tends to find the moment; a topic label tends not to, because nobody
-says "housing policy" out loud in a debate about it.
+A half-remembered sentence in the speaker's own words tends to find the moment;
+a topic label tends not to, because nobody says "housing policy" out loud in a
+debate about it.
 
 A narrow first query and then one rephrasing usually gets there faster than
-several broad ones fired at once. Each result already carries an excerpt of the
-transcript around the match, which is often enough to answer the question or to
-tell which clip is the right one — opening the full transcript is the step for
-when it is not.
+several broad ones fired at once. The excerpt on each result is often enough to
+answer the question or to tell which clip is the right one — opening the full
+transcript is the step for when it is not.
 
 ## Which link to share
 
-Every clip has two.
-
-- The **anonymous share link** plays the video for anyone who opens it, with no
-  sign-in. This is the one for a journalist, a constituent, a post, or anyone
-  outside the office.
-- The **Clip Library link** opens the clip inside Parliament Connect and needs a
-  signed-in account with access. This is the one for the office's own workflow.
-
+The anonymous link is for anyone outside the office — a journalist, a
+constituent, a post. The Clip Library link is for the office's own workflow.
 Sending the second to someone outside the account gives them a sign-in wall.
+
+Most clips have both, but not all: a clip with no playable source video has no
+anonymous link. When that happens, say the clip cannot be shared anonymously
+rather than handing over the Clip Library link as a substitute — that is the
+sign-in wall this section exists to avoid.
+
+## "What has my MP said this week?"
+
+This one needs care, because it sounds like a listing and the library only does
+search. There is no way to ask for everything a member said in a window — every
+query needs a subject. So establish what they are actually looking for: a topic,
+the office's standing subjects, or the constituency name.
+
+Then say what came back honestly. It is "clips matching what you asked about in
+that window", never "everything they said". An empty result means nothing
+matched that search in that window — it does not mean the member was silent, and
+it does not tell you whether the House was even sitting. If nothing lands,
+widening the dates backwards to find their most recent clip is more useful than
+reporting a blank week.
+
+Standing alerts are not something to set up from here. Parliament Connect has
+monitors for that in the web app; this connector only reads.
 
 ## If no Parliament Connect capability is available
 

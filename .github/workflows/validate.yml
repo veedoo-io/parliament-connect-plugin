@@ -2,14 +2,26 @@ name: validate
 
 on:
   push:
+    branches: [main]
   pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   validate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+      # Pinned to the floor the README promises. The guard depends on which
+      # paths `claude plugin validate` walks, which is undocumented CLI
+      # behaviour — an unpinned upgrade could weaken the check silently.
       - name: Install Claude Code
-        run: npm install -g @anthropic-ai/claude-code
+        run: npm install -g @anthropic-ai/claude-code@2.1.241
       - name: Validate plugin
         run: ./scripts/validate.sh

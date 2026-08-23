@@ -24,17 +24,21 @@ then return nothing — that is the chamber, not the member.
 
 Add the marketplace, then the plugin.
 
+Clone this repo, then add it as a marketplace from the checkout. (Installing by
+GitHub slug lands when the repo is published; these are the forms that are
+verified working today.)
+
 **Claude Code**
 
 ```bash
-claude plugin marketplace add veedoo-io/parliament-connect-plugin
+claude plugin marketplace add ./
 claude plugin install parliament-connect@veedoo-plugins
 ```
 
 **Codex**
 
 ```bash
-codex plugin marketplace add veedoo-io/parliament-connect-plugin
+codex plugin marketplace add ./
 codex plugin add parliament-connect@veedoo-plugins
 ```
 
@@ -53,8 +57,10 @@ the server registers the client itself and opens a browser for you to approve.
   headless or SSH session, the server's full name is
   `plugin:parliament-connect:parliament-connect`.
 - **Codex** — run `codex mcp login parliament-connect`. Do not pass a `--scopes`
-  list; narrowing the request drops the refresh token and the connection stops
-  working when the access token expires.
+  list; narrowing the request costs you the refresh token. Separately, some
+  clients may currently end up without one regardless, in which case the
+  connection needs re-authorising once the access token expires — re-run the
+  same login.
 - **Cowork** — a Connect prompt appears the first time it is used.
 
 ### If you already added the server by hand
@@ -81,14 +87,10 @@ where you have two from the same tool, the stale one is the older grant.
 
 If that returns clips, everything is working.
 
-You can also ask what an MP has said this sitting week and get it back grouped
-by day.
-
 ## Two things worth knowing
 
-- Searching is limited by your plan, and opening a clip's full transcript is
-  not. The excerpt attached to each result is usually enough to pick the right
-  clip without opening anything.
+- The excerpt attached to each result is usually enough to pick the right clip
+  without opening anything.
 - Matching runs on the spoken word, so the half-remembered sentence is the thing
   to type. A topic label finds less than a phrase someone actually said.
 
