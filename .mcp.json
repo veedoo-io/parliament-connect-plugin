@@ -1,0 +1,8 @@
+{
+	"mcpServers": {
+		"parliament-connect": {
+			"type": "http",
+			"url": "https://parliamentconnect.com/api/mcp"
+		}
+	}
+}

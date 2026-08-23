@@ -1,0 +1,18 @@
+{
+	"name": "veedoo-plugins",
+	"description": "Plugins published by Veedoo, makers of Parliament Connect.",
+	"owner": {
+		"name": "Veedoo Mobility OÜ",
+		"url": "https://parliamentconnect.com"
+	},
+	"plugins": [
+		{
+			"name": "parliament-connect",
+			"source": "./",
+			"description": "Search UK Parliament video clips by what was actually said in the Commons chamber, with transcript evidence and shareable links.",
+			"author": {
+				"name": "Veedoo Mobility OÜ"
+			}
+		}
+	]
+}

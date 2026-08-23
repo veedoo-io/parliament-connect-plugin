@@ -1,0 +1,12 @@
+{
+	"name": "parliament-connect",
+	"displayName": "Parliament Connect",
+	"version": "0.1.0",
+	"description": "Search UK Parliament video clips by what was actually said in the Commons chamber, with transcript evidence and shareable links.",
+	"author": {
+		"name": "Veedoo Mobility OÜ",
+		"url": "https://parliamentconnect.com"
+	},
+	"homepage": "https://parliamentconnect.com",
+	"keywords": ["parliament", "uk-politics", "video", "transcripts", "research"]
+}
