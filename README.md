@@ -101,3 +101,11 @@ setup for each is documented at
 ## Support
 
 [parliamentconnect.com/contact](https://parliamentconnect.com/contact)
+
+## Changing this plugin
+
+Run `./scripts/validate.sh` before pushing. Use it rather than
+`claude plugin validate .` on its own — with a marketplace manifest in the same
+directory, that command skips the skills entirely and still exits 0.
+
+Licensed MIT. See [LICENSE](LICENSE).
