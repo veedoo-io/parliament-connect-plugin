@@ -8,5 +8,6 @@
 		"url": "https://parliamentconnect.com"
 	},
 	"homepage": "https://parliamentconnect.com",
+	"license": "MIT",
 	"keywords": ["parliament", "uk-politics", "video", "transcripts", "research"]
 }
