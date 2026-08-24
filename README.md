@@ -74,8 +74,8 @@ two do not merge:
   server, so a future change to the plugin is ignored.
 
 Removing the server is a local change only — the old authorisation is still
-live on your account. Revoke it in Parliament Connect under **Settings →
-Connections**. Grants are listed by the name the AI tool registered under, so
+live on your account. Revoke it in Parliament Connect under **Settings → AI
+tools**. Grants are listed by the name the AI tool registered under, so
 where you have two from the same tool, the stale one is the older grant.
 
 ## First query
