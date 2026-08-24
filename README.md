@@ -108,4 +108,6 @@ Run `./scripts/validate.sh` before pushing. Use it rather than
 `claude plugin validate .` on its own — with a marketplace manifest in the same
 directory, that command skips the skills entirely and still exits 0.
 
-Licensed MIT. See [LICENSE](LICENSE).
+Licensed MIT — see [LICENSE](LICENSE). That covers the packaging in this repo
+only. It grants no rights in the Parliament Connect name or logo, and no access
+to the Parliament Connect service, which needs an account on an active plan.
