@@ -24,21 +24,19 @@ then return nothing — that is the chamber, not the member.
 
 Add the marketplace, then the plugin.
 
-Clone this repo, then add it as a marketplace from the checkout. (Installing by
-GitHub slug lands when the repo is published; these are the forms that are
-verified working today.)
+Add the marketplace, then the plugin.
 
 **Claude Code**
 
 ```bash
-claude plugin marketplace add ./
+claude plugin marketplace add veedoo-io/parliament-connect-plugin
 claude plugin install parliament-connect@veedoo-plugins
 ```
 
 **Codex**
 
 ```bash
-codex plugin marketplace add ./
+codex plugin marketplace add veedoo-io/parliament-connect-plugin
 codex plugin add parliament-connect@veedoo-plugins
 ```
 
