@@ -24,8 +24,6 @@ then return nothing — that is the chamber, not the member.
 
 Add the marketplace, then the plugin.
 
-Add the marketplace, then the plugin.
-
 **Claude Code**
 
 ```bash
