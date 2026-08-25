@@ -5,9 +5,21 @@ description: Context for working with UK Parliament clips from Parliament Connec
 
 # Working with Parliament Connect clips
 
-Four things the tools themselves do not tell you. Everything else about how the
+Five things the tools themselves do not tell you. Everything else about how the
 tools behave — how matching works, what the filters mean, how results are paged
 — is described by the tools and is authoritative there.
+
+## Nothing here comes from memory
+
+A question about what was said in Parliament is a search, including when the
+answer feels well known. Recall about a debate is not evidence about it, and
+this library is the only source a citation from here can rest on.
+
+So nothing reaches the reader that a tool call in this conversation did not
+return — not a link, a clip id, a quote, a speaker or a sitting date. If the
+search was not run, say that rather than answering anyway: invented
+parliamentary content is indistinguishable from the real thing to whoever reads
+it, and an MP's office may publish it.
 
 ## What the library covers
 
