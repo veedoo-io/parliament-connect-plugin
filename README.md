@@ -13,12 +13,17 @@ the trial does not ask for a card.
 
 ## What it covers
 
-Clips of MPs speaking in the **House of Commons chamber**, matched against what
-was actually spoken in them.
+Clips of MPs speaking in the **House of Commons chamber**, and — from September
+2026 — in parliamentary **committee sessions**: select, Lords and delegated
+legislation committees, any sitting listed as a committee. All matched against
+what was actually spoken.
 
-Not covered: the House of Lords, select and public bill committees, Westminster
-Hall, and the devolved legislatures. A Lords member will resolve as a member and
-then return nothing — that is the chamber, not the member.
+Not covered: the House of Lords chamber, Westminster Hall, and the devolved
+legislatures. Public bill committees are listed by bill name rather than as
+committees, so they are not picked up. Committee coverage is forward-only —
+sittings from before September 2026 are not in the library. A member of the
+Lords resolves as a member; their chamber is not captured, so any clip of one
+could only come from a committee session.
 
 ## Install
 
