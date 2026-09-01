@@ -1,6 +1,6 @@
 ---
 name: parliament-clip-research
-description: Context for working with UK Parliament clips from Parliament Connect — what the library covers, what makes a query land, and which link to share. Use when someone asks what an MP said in Parliament, or wants a clip or quote from a Commons debate on a particular subject.
+description: Context for working with UK Parliament clips from Parliament Connect — what the library covers, what makes a query land, and which link to share. Use when someone asks what an MP said in Parliament, or wants a clip or quote from a Commons debate or committee session on a particular subject.
 ---
 
 # Working with Parliament Connect clips
@@ -23,16 +23,22 @@ it, and an MP's office may publish it.
 
 ## What the library covers
 
-**House of Commons chamber sittings only.** No House of Lords, no select or
-public bill committees, no Westminster Hall, no devolved legislatures.
+**House of Commons chamber sittings, plus — from September 2026 — parliamentary
+committee sessions**: select, Lords and delegated legislation committees, any
+sitting listed as a committee. Not in the library: the House of Lords
+chamber, Westminster Hall, and the devolved legislatures. Public bill
+committees are listed by bill name rather than as committees, so they are not
+picked up. Committee coverage is forward-only — sittings from before September
+2026 were never captured.
 
-This matters because a question about any of those returns no matches rather
-than an error, and no-matches reads like "they never said it" when it actually
-means "that room is not covered". Say which it is.
+This matters because a question about an uncovered room — or a committee moment
+from before September 2026 — returns no matches rather than an error, and
+no-matches reads like "they never said it" when it actually means "that room,
+or that date, is not covered". Say which it is.
 
-The same applies to people: a member of the Lords resolves as a member, and
-then has no clips — because their chamber is not captured, not because they
-were silent.
+The same applies to people: a member of the Lords resolves as a member. Their
+chamber is not captured, so a clip of one could only come from a committee
+session — an empty result there is the coverage boundary, not silence.
 
 ## What makes a query land
 
