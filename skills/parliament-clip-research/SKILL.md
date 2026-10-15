@@ -66,9 +66,10 @@ sign-in wall this section exists to avoid.
 
 PMQs are held differently from everything else in the library: as exchanges,
 one question and the answer to it per record, plus the Prime Minister's opening
-statement. Each names both people and carries the whole exchange with each turn
-labelled by who spoke it, so a quote can be attributed without guessing where
-the question ends.
+statement. Each question names both people and carries the whole exchange with
+each turn labelled by who spoke it, so a quote can be attributed without
+guessing where the question ends. The opening statement comes back unlabelled,
+because its recording can run into the first question.
 
 Two things follow that do not apply to ordinary clips. A sitting can be listed
 by date, and a member's questions listed by name, without a subject — "what was
