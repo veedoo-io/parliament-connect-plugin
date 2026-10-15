@@ -1,11 +1,11 @@
 ---
 name: parliament-clip-research
-description: Context for working with UK Parliament clips from Parliament Connect — what the library covers, what makes a query land, and which link to share. Use when someone asks what an MP said in Parliament, or wants a clip or quote from a Commons debate or committee session on a particular subject.
+description: Context for working with UK Parliament clips from Parliament Connect — what the library covers, what makes a query land, which link to share, and how Prime Minister's Questions are held. Use when someone asks what an MP said in Parliament, wants a clip or quote from a Commons debate or committee session on a particular subject, or asks about PMQs.
 ---
 
 # Working with Parliament Connect clips
 
-Five things the tools themselves do not tell you. Everything else about how the
+Six things the tools themselves do not tell you. Everything else about how the
 tools behave — how matching works, what the filters mean, how results are paged
 — is described by the tools and is authoritative there.
 
@@ -62,11 +62,38 @@ anonymous link. When that happens, say the clip cannot be shared anonymously
 rather than handing over the Clip Library link as a substitute — that is the
 sign-in wall this section exists to avoid.
 
+## Prime Minister's Questions
+
+PMQs are held differently from everything else in the library: as exchanges,
+one question and the answer to it per record, plus the Prime Minister's opening
+statement. Each names both people and carries the whole exchange with each turn
+labelled by who spoke it, so a quote can be attributed without guessing where
+the question ends.
+
+Two things follow that do not apply to ordinary clips. A sitting can be listed
+by date, and a member's questions listed by name, without a subject — "what was
+asked at PMQs today" is answerable as it stands. And every exchange is
+searchable whatever the account's plan covers, so an office scoped to one MP
+still sees the whole session.
+
+An empty PMQ answer is one of three things, and the reply should say which: no
+PMQs fell on those dates (a recess, or not a Wednesday the House sat), the
+session was held but its exchanges are still being prepared — that takes a few
+hours after it ends — or exchanges exist and none matched. A listing can also
+come back with a sitting in its dates still being prepared; that sitting is
+missing from the results, so they are not the whole window.
+
+Names on an exchange are checked against the official record of the debate
+after the session. Until that check has happened they come from the broadcast
+and can be corrected, so when quoting a name from an unchecked exchange, say
+that it has not been confirmed yet.
+
 ## "What has my MP said this week?"
 
 This one needs care, because it sounds like a listing and the library only does
 search. There is no way to ask for everything a member said in a window — every
-query needs a subject. So establish what they are actually looking for: a topic,
+query needs a subject. The one exception is PMQs, above: the questions a member
+asked there can be listed. So establish what they are actually looking for: a topic,
 the office's standing subjects, or the constituency name.
 
 Then say what came back honestly. It is "clips matching what you asked about in

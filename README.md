@@ -25,6 +25,12 @@ sittings from before September 2026 are not in the library. A member of the
 Lords resolves as a member; their chamber is not captured, so any clip of one
 could only come from a committee session.
 
+**Prime Minister's Questions** are held as exchanges — each question with the
+answer to it, both people named — and can be listed by date or by the MP who
+asked, without a search phrase:
+
+> What did the Leader of the Opposition ask at PMQs last Wednesday?
+
 ## Install
 
 Add the marketplace, then the plugin.
